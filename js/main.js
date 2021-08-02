@@ -56,7 +56,7 @@ function createquiz(){
         questions.push(question);
     });
 
-    questions = questions.slice(-20);
+    // questions = questions.slice(-2);
 
     shuffle(questions);
 
@@ -68,11 +68,11 @@ function loadquestion(question){
 
     $('#renewTimes').html(renewTime);
 
-    // $('#controller').addClass('d-flex').removeClass('d-none');
-    // $('#disco').addClass('d-none').removeClass('d-flex');
+    $('#controller').addClass('d-flex').removeClass('d-none');
+    $('#disco').addClass('d-none').removeClass('d-flex');
 
-    // $('#anwers').removeClass('d-none').addClass('d-flex');
-    // $('#checkanw').addClass('d-none').removeClass('d-block'); 
+    $('#anwers').removeClass('d-none').addClass('d-flex');
+    $('#checkanw').addClass('d-none').removeClass('d-block'); 
 
     for (let index = 0; index < question.answers.length; index++) {
         $('#anwers>div>.choosebtn>span').eq(index).text(question.answers[index]);
@@ -85,7 +85,7 @@ function loadquestion(question){
             let offset = Math.floor(Math.random() * (player._duration - 10) + 1);
 
             player._sprite.randomclip = [offset*1000, 10000];
-            // player.play('randomclip');
+            player.play('randomclip');
         },
         onplay: ()=>{
             $('#soundbtn>i').removeClass('fa-play').addClass('fa-pause');
@@ -138,7 +138,6 @@ function showanswer(discoids){
             });
         }
 
-
     });
 
     $('#controller').addClass('d-none').removeClass('d-flex');
@@ -186,7 +185,7 @@ function ShowResult(){
     }
 
     $('#rankimg').attr('src', `./image/ranking/ClassIconL_${ranking}.png`);
-    $('a.twitter.confirm-btn').attr('href', `https://twitter.com/intent/tweet?text=キュー楽曲検定！全${questions.length}問中${correct}問正解！`)
+    $('a.twitter.confirm-btn').attr('href', `https://twitter.com/intent/tweet?text=キュー楽曲検定！全${questions.length}問中${correct}問正解！%0a&hashtags=キュー,キュー楽曲檢定&url=https://cpk0521.github.io/CUE-Quiz/%0a`)
 
 }
 
@@ -238,16 +237,10 @@ $('.confirm>.confirm-btn').click(function(){
         curr++;
 
         if(curr < questions.length){
-            $('#controller').addClass('d-flex').removeClass('d-none');
-            $('#disco').addClass('d-none').removeClass('d-flex');
-
-            $('#anwers').removeClass('d-none').addClass('d-flex');
-            $('#checkanw').addClass('d-none').removeClass('d-block'); 
+            loadquestion(questions[curr]);
         }else{
             ShowResult();
         }
-
-        
         
     } else {
 
@@ -268,7 +261,6 @@ $('.confirm>.confirm-btn').click(function(){
             $('#checkanw').children('span').addClass('text-Danger');
         }
 
-        loadquestion(questions[curr]);
         showanswer(questions[curr].discos);
     }
 
