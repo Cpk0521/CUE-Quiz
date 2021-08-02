@@ -72,7 +72,9 @@ function loadquestion(question){
     $('#disco').addClass('d-none').removeClass('d-flex');
 
     $('#anwers').removeClass('d-none').addClass('d-flex');
-    $('#checkanw').addClass('d-none').removeClass('d-block'); 
+    $('#checkanw').addClass('d-none').removeClass('d-block');
+
+    $('#soundbtn').addClass('lock');
 
     for (let index = 0; index < question.answers.length; index++) {
         $('#anwers>div>.choosebtn>span').eq(index).text(question.answers[index]);
@@ -85,6 +87,8 @@ function loadquestion(question){
             let offset = Math.floor(Math.random() * (player._duration - 10) + 1);
 
             player._sprite.randomclip = [offset*1000, 10000];
+            $('#soundbtn').removeClass('lock');
+
             player.play('randomclip');
         },
         onplay: ()=>{
@@ -245,6 +249,8 @@ $('.confirm>.confirm-btn').click(function(){
     } else {
 
         player.stop();
+        player.unload();
+        player = null;
 
         let ans = $('.choosebtn.is-selected').children('span').text();
         $('div.choosebtn').removeClass('is-selected');
@@ -280,13 +286,19 @@ $('#soundbtn').click(()=>{
 })
 
 $('#renewbtn').click(()=>{
-    player.stop();
-    $('#renewTimes').html(--renewTime);
-    if(renewTime == 0)
-    {
-        $('#renewbtn').addClass('lock');
+
+    if (!$('#soundbtn').hasClass('lock')) {
+        
+        player.stop();
+    
+        $('#renewTimes').html(--renewTime);
+        if(renewTime == 0)
+        {
+            $('#renewbtn').addClass('lock');
+        }
+    
+        randClip();
+
     }
-
-    randClip();
-
+    
 })

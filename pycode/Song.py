@@ -2,7 +2,7 @@ import json
 
 songs = [
     ['Forever Friends', [1, 2, 14], 1, 'mB7THsrkBHc.mp3'],
-    ['Forever Friends (Flower ver.)', [2], 3, '_czz8MR8HMY.mp3'],
+    ['Forever Friends (Flower ver.)', [2], 3, 'czz8MR8HMY.mp3'],
     ['Forever Friends (Bird ver.)', [2], 3, 'DYFFBzewqug.mp3'],
     ['Forever Friends (Wind ver.)', [2], 3, '40xdAJyVT2c.mp3'],
     ['Forever Friends (Moon ver.)', [2], 3, '9YeMoi0TELY.mp3'],
@@ -37,7 +37,7 @@ songs = [
     ['Colorful (Flower ver.)', [8], 3, 'ZwokU805lQo.mp3'],
     ['Colorful (Bird ver.)', [8], 3, 'E4gPEFVguSQ.mp3'],
     ['Colorful (Wind ver.)', [8], 3, 'ezlOIGrmaGg.mp3'],
-    ['Colorful (Moon ver.)', [8], 3, '_3JW9cHAoEM.mp3'],
+    ['Colorful (Moon ver.)', [8], 3, '3JW9cHAoEM.mp3'],
     ['Colorful (Instrumental)', [8], 2, 'Vo_5VVcE0F0.mp3'],
     ['カレイドスコープ', [8, 14], 1, 'XiiisM5bT4s.mp3'],
     ['カレイドスコープ (Instrumental)', [8], 2, 'hUJyOqf9Wuc.mp3'],
@@ -65,7 +65,7 @@ songs = [
     ['最高の魔法 (Instrumental)', [13], 2, 'gMeNKtegHVo.mp3'],
     ['白い沿線', [13], 1, 'R-xZpKD0xZs.mp3'],
     ['白い沿線 (Instrumental)', [13], 2, 'Al359qWstN4.mp3'],
-    ['CUTE♡CUTE♡CUTE♡', [14], 1, '_lz2fSRWXqk.mp3'],
+    ['CUTE♡CUTE♡CUTE♡', [14], 1, 'lz2fSRWXqk.mp3'],
     ['CUTE♡CUTE♡CUTE♡ (Flower ver.)', [11], 3, '5ejczSIUkKE.mp3'],
     ['CUTE♡CUTE♡CUTE♡ (Bird ver.)', [12], 3, 'uyLB-iQ7ct8.mp3'],
     ['CUTE♡CUTE♡CUTE♡ (Wind ver.)', [10], 3, 'Mg5CF2mtpg0.mp3'],
