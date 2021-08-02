@@ -1,0 +1,236 @@
+{
+    "discolist": [
+        {
+            "id": 0,
+            "date": "/",
+            "type": 0,
+            "title": "/",
+            "name": "/",
+            "cover": [
+                {
+                    "file": "CD_Blank.png"
+                }
+            ],
+            "lnkto": ""
+        },
+        {
+            "id": 1,
+            "date": "2019-08-09",
+            "type": 1,
+            "title": "CUE! 00 Limited Mini Album",
+            "name": "See you everyday",
+            "cover": [
+                {
+                    "file": "MA00.jpg"
+                }
+            ],
+            "lnkto": ""
+        },
+        {
+            "id": 2,
+            "date": "2019-11-27",
+            "type": 3,
+            "title": "CUE! 01 Single",
+            "name": "Forever Friends",
+            "cover": [
+                {
+                    "file": "S01_1.png"
+                },
+                {
+                    "file": "S01_2.png"
+                }
+            ],
+            "lnkto": "https://lnk.to/foreverfriends"
+        },
+        {
+            "id": 3,
+            "date": "2020-01-22",
+            "type": 4,
+            "title": "CUE! Team Single 01",
+            "name": "Knocking on My Dream!!",
+            "cover": [
+                {
+                    "file": "TS01.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle01"
+        },
+        {
+            "id": 4,
+            "date": "2020-01-22",
+            "type": 4,
+            "title": "CUE! Team Single 02",
+            "name": "にこにこワクワク 最高潮！",
+            "cover": [
+                {
+                    "file": "TS02.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle02"
+        },
+        {
+            "id": 5,
+            "date": "2020-01-22",
+            "type": 4,
+            "title": "CUE! Team Single 03",
+            "name": "Good meal, Good life",
+            "cover": [
+                {
+                    "file": "TS03.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle03"
+        },
+        {
+            "id": 6,
+            "date": "2020-01-22",
+            "type": 4,
+            "title": "CUE! Team Single 04",
+            "name": "MiRAGE! MiRAGE!!",
+            "cover": [
+                {
+                    "file": "TS04.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle04"
+        },
+        {
+            "id": 7,
+            "date": "2020-03-25",
+            "type": 3,
+            "title": "CUE! 02 Single",
+            "name": "beautiful tomorrow",
+            "cover": [
+                {
+                    "file": "S02_1.png"
+                },
+                {
+                    "file": "S02_2.png"
+                }
+            ],
+            "lnkto": "https://lnk.to/beautifultomorrow"
+        },
+        {
+            "id": 8,
+            "date": "2020-08-26",
+            "type": 3,
+            "title": "CUE! 03 Single",
+            "name": "Colorful／カレイドスコープ",
+            "cover": [
+                {
+                    "file": "S03_1.png"
+                },
+                {
+                    "file": "S03_2.png"
+                }
+            ],
+            "lnkto": "https://lnk.to/ColorfulKaleidoscope"
+        },
+        {
+            "id": 9,
+            "date": "2020-09-16",
+            "type": 4,
+            "title": "CUE! Team Single 05",
+            "name": "Reach For The World!",
+            "cover": [
+                {
+                    "file": "TS05.png"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle05"
+        },
+        {
+            "id": 10,
+            "date": "2020-09-16",
+            "type": 4,
+            "title": "CUE! Team Single 06",
+            "name": "NAZO-NAZE Jumping!",
+            "cover": [
+                {
+                    "file": "TS06.png"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle06"
+        },
+        {
+            "id": 11,
+            "date": "2020-09-16",
+            "type": 4,
+            "title": "CUE! Team Single 07",
+            "name": "Red or Blue？",
+            "cover": [
+                {
+                    "file": "TS07.png"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle07"
+        },
+        {
+            "id": 12,
+            "date": "2020-09-16",
+            "type": 4,
+            "title": "CUE! Team Single 08",
+            "name": "Override!",
+            "cover": [
+                {
+                    "file": "TS08.png"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE_TeamSingle08"
+        },
+        {
+            "id": 13,
+            "date": "2021-01-06",
+            "type": 3,
+            "title": "CUE! 04 Single",
+            "name": "最高の魔法",
+            "cover": [
+                {
+                    "file": "S04_1.jpg"
+                },
+                {
+                    "file": "S04_2.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/SaikonoMahoPC"
+        },
+        {
+            "id": 14,
+            "date": "2021-04-21",
+            "type": 2,
+            "title": "CUE! 01 Album",
+            "name": "Talk about everything",
+            "cover": [
+                {
+                    "file": "A01_1.jpg"
+                },
+                {
+                    "file": "A01_2.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/Talk_about_everything"
+        }
+    ],
+    "discoTypes": [
+        {
+            "id": 0,
+            "typename": "Not on sale"
+        },
+        {
+            "id": 1,
+            "typename": "Mini Album"
+        },
+        {
+            "id": 2,
+            "typename": "Album"
+        },
+        {
+            "id": 3,
+            "typename": "Single"
+        },
+        {
+            "id": 4,
+            "typename": "Team Single"
+        }
+    ]
+}
