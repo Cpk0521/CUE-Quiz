@@ -75,6 +75,7 @@ function loadquestion(question){
     $('#checkanw').addClass('d-none').removeClass('d-block');
 
     $('#soundbtn').addClass('lock');
+    $('#renewbtn').addClass('lock');
 
     for (let index = 0; index < question.answers.length; index++) {
         $('#anwers>div>.choosebtn>span').eq(index).text(question.answers[index]);
@@ -90,6 +91,10 @@ function loadquestion(question){
 
             player.play('randomclip');
             $('#soundbtn').removeClass('lock');
+
+            if (renewTime > 0) {
+                $('#renewbtn').removeClass('lock');   
+            }
         },
         onplay: ()=>{
             $('#soundbtn>i').removeClass('fa-play').addClass('fa-pause');
@@ -292,7 +297,7 @@ $('#soundbtn').click(()=>{
 
 $('#renewbtn').click(()=>{
 
-    if (!$('#soundbtn').hasClass('lock')) {
+    if ((!$('#soundbtn').hasClass('lock')) && (renewTime > 0)) {
 
         if (player.playing()) {
             player.stop();
