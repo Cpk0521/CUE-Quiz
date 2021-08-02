@@ -87,9 +87,9 @@ function loadquestion(question){
             let offset = Math.floor(Math.random() * (player._duration - 10) + 1);
 
             player._sprite.randomclip = [offset*1000, 10000];
-            $('#soundbtn').removeClass('lock');
 
             player.play('randomclip');
+            $('#soundbtn').removeClass('lock');
         },
         onplay: ()=>{
             $('#soundbtn>i').removeClass('fa-play').addClass('fa-pause');
@@ -108,6 +108,11 @@ function loadquestion(question){
 
 function randClip(){
     if(player){
+
+        if (player.playing()){
+            player.stop();
+        }
+
         let offset = Math.floor(Math.random() * (player._duration - 10));
 
         player._sprite.randomclip = [offset*1000, 10000];
@@ -288,9 +293,11 @@ $('#soundbtn').click(()=>{
 $('#renewbtn').click(()=>{
 
     if (!$('#soundbtn').hasClass('lock')) {
-        
-        player.stop();
-    
+
+        if (player.playing()) {
+            player.stop();
+        }
+
         $('#renewTimes').html(--renewTime);
         if(renewTime == 0)
         {
@@ -298,7 +305,6 @@ $('#renewbtn').click(()=>{
         }
     
         randClip();
-
     }
     
 })
