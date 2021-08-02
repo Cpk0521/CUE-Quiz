@@ -87,7 +87,7 @@ body {
 
 .bg{
     height: 100vh;
-    background-image: url('/image/cover.jpg');
+    background-image: url('../image/cover.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
