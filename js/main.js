@@ -9,6 +9,7 @@ var discolist;
 var discotype;
 
 //quiz
+var quiztype = 0;
 var questions = [];
 var correct = 0;
 var curr = 0;
@@ -31,12 +32,12 @@ function shuffle(arr) {
 }
 
 //create quiz questions
-function createquiz(){
+function createquiz(arrlist){
 
     renewTime = 3;
     $('#renewbtn').removeClass('lock');
 
-    songlist.forEach(element => {
+    arrlist.forEach(element => {
         let question = {};
 
         question.song = element.file;
@@ -46,7 +47,7 @@ function createquiz(){
         question.answers = [];
         question.answers.push(element.name);
         while (question.answers.length < 4) {
-            let randomsong = songlist[Math.floor(Math.random() * songlist.length)].name;
+            let randomsong = arrlist[Math.floor(Math.random() * arrlist.length)].name;
             if ($.inArray(randomsong, question.answers) == -1) {
                 question.answers.push(randomsong);
             }
@@ -60,7 +61,15 @@ function createquiz(){
 
     shuffle(questions);
 
-    loadquestion(questions[curr]);
+    switch (quiztype) {
+        case 1:
+            loadIntroquestion(questions[curr]);
+            break;
+    
+        default:
+            loadquestion(questions[curr]);       
+            break;
+    }
 }
 
 
@@ -95,6 +104,48 @@ function loadquestion(question){
             if (renewTime > 0) {
                 $('#renewbtn').removeClass('lock');   
             }
+        },
+        onplay: ()=>{
+            $('#soundbtn>i').removeClass('fa-play').addClass('fa-pause');
+        },
+        onpause: ()=>{
+            $('#soundbtn>i').removeClass('fa-pause').addClass('fa-play');
+        },
+        onstop: ()=>{
+            $('#soundbtn>i').removeClass('fa-pause').addClass('fa-play');
+        },
+        onend: ()=>{
+            $('#soundbtn>i').removeClass('fa-pause').addClass('fa-play');
+        }
+    })
+}
+
+function loadIntroquestion(question){
+
+    $('#renewTimes').html(renewTime);
+
+    $('#controller').addClass('d-flex').removeClass('d-none');
+    $('#disco').addClass('d-none').removeClass('d-flex');
+
+    $('#anwers').removeClass('d-none').addClass('d-flex');
+    $('#checkanw').addClass('d-none').removeClass('d-block');
+
+    $('#soundbtn').addClass('lock');
+    $('#renewbtn').addClass('d-none');
+
+    for (let index = 0; index < question.answers.length; index++) {
+        $('#anwers>div>.choosebtn>span').eq(index).text(question.answers[index]);
+    }
+
+    player = new Howl({
+        src: [`${music_dir}/${question.song}`],
+        html5: true,
+        onload: ()=>{
+
+            player._sprite.randomclip = [0, 1700];
+
+            player.play('randomclip');
+            $('#soundbtn').removeClass('lock');
         },
         onplay: ()=>{
             $('#soundbtn>i').removeClass('fa-play').addClass('fa-pause');
@@ -199,7 +250,17 @@ function ShowResult(){
     }
 
     $('#rankimg').attr('src', `./image/ranking/ClassIconL_${ranking}.png`);
-    $('a.twitter.confirm-btn').attr('href', `https://twitter.com/intent/tweet?text=キュー楽曲検定！全${questions.length}問中${correct}問正解！%0a&hashtags=キュー,キュー楽曲檢定&url=https://cpk0521.github.io/CUE-Quiz/%0a`)
+    let q = '';
+    switch (quiztype) {
+        case 1:
+            q = 'イントロ編';
+            break;
+    
+        default:
+            q = 'ランダム全曲編';
+            break;
+    }
+    $('a.twitter.confirm-btn').attr('href', `https://twitter.com/intent/tweet?text=キュー楽曲検定！${q}%0a全${questions.length}問中${correct}問正解！%0a&hashtags=キュー,キュー楽曲檢定&url=https://cpk0521.github.io/CUE-Quiz/%0a`)
 
 }
 
@@ -219,24 +280,25 @@ $('#quizs>div>div.choosebtn').click(function(){
 
 $('.start-btn').click(()=>{
     $('#levelsection').addClass('d-none');
-    // switch ($('.choosebtn.is-selected').children('span').text()) {
-    //     case '初級編':
-    //         createquiz();
-    //         break;
-    //     case '中級篇':
-    //         createquiz();
-    //         break;
-    //     case '上級編':
-    //         createquiz();
-    //         break;
-    //     case '全曲編':
-    //         createquiz();
-    //         break;
-    //     default:
-    //         console.log('error');
-    //         break;
-    // }
-    createquiz();
+    switch ($('.choosebtn.is-selected').children('span').text()) {
+        case 'イントロ編':
+            console.log('イントロ編');
+            quiztype = 1;
+            createquiz(songlist.filter(song => song.songtype == 1));
+            break;
+        // case '中級篇':
+        //     createquiz();
+        //     break;
+        // case '上級編':
+        //     createquiz();
+        //     break;
+        case 'ランダム全曲編':
+            createquiz(songlist);
+            break;
+        default:
+            console.log('error');
+            break;
+    }
     $('#quizdiv').fadeIn('slow');
 });
 
@@ -251,7 +313,15 @@ $('.confirm>.confirm-btn').click(function(){
         curr++;
 
         if(curr < questions.length){
-            loadquestion(questions[curr]);
+            switch (quiztype) {
+                case 1:
+                    loadIntroquestion(questions[curr]);
+                    break;
+            
+                default:
+                    loadquestion(questions[curr]);       
+                    break;
+            }
         }else{
             ShowResult();
         }
