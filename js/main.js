@@ -292,6 +292,7 @@ $('.start-btn').click(()=>{
         // case '上級編':
         //     createquiz();
         //     break;
+        
         case 'ランダム全曲編':
             createquiz(songlist);
             break;
