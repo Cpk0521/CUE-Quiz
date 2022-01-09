@@ -15,7 +15,8 @@ discolist = [
     [11, '2020-09-16', 'CUE! Team Single 07', 'Red or Blue？', 4, ['TS07.png'], 'https://lnk.to/CUE_TeamSingle07'],
     [12, '2020-09-16', 'CUE! Team Single 08', 'Override!', 4, ['TS08.png'], 'https://lnk.to/CUE_TeamSingle08'],
     [13, '2021-01-06', 'CUE! 04 Single', '最高の魔法', 3, ['S04_1.jpg', 'S04_2.jpg'], 'https://lnk.to/SaikonoMahoPC'],
-    [14, '2021-04-21', 'CUE! 01 Album', 'Talk about everything', 2, ['A01_1.jpg', 'A01_2.jpg'], 'https://lnk.to/Talk_about_everything']
+    [14, '2021-04-21', 'CUE! 01 Album', 'Talk about everything', 2, ['A01_1.jpg', 'A01_2.jpg'], 'https://lnk.to/Talk_about_everything'],
+    [15, '2022-1-26', '主題歌CD', 'スタートライン／はじまりの鐘の音が鳴り響く空', 3, ['oped_jk.jpg', 'oped_jk_syokai.jpg'], 'https://lnk.to/CUE05'],
 ]
 
 discoTypes = [

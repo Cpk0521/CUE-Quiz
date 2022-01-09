@@ -81,6 +81,9 @@ songs = [
     ['雫の結晶', [14], 1, 'UO2u_YjFNE8.mp3'],
     ['キセキなSummer！', [0], 1, '209.mp3'],
     ['Land"e"scape', [0], 1, '210.mp3'],
+    ['スタートライン', [15], 1, 'flhe4PWaLa0.mp3'],
+    ['はじまりの鐘の音が鳴り響く空', [15], 1, 'EdUR0JotoD0.mp3']
+
 ]
 
 songtype = [

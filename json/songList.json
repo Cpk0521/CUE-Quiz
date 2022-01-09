@@ -823,6 +823,26 @@
             ],
             "songtype": 1,
             "file": "210.mp3"
+        },
+        {
+            "name": "スタートライン",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 1,
+            "file": "flhe4PWaLa0.mp3"
+        },
+        {
+            "name": "はじまりの鐘の音が鳴り響く空",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 1,
+            "file": "EdUR0JotoD0.mp3"
         }
     ],
     "SongTypes": [

@@ -209,6 +209,22 @@
                 }
             ],
             "lnkto": "https://lnk.to/Talk_about_everything"
+        },
+        {
+            "id": 15,
+            "date": "2022-1-26",
+            "type": 3,
+            "title": "主題歌CD",
+            "name": "スタートライン／はじまりの鐘の音が鳴り響く空",
+            "cover": [
+                {
+                    "file": "oped_jk.jpg"
+                },
+                {
+                    "file": "oped_jk_syokai.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE05"
         }
     ],
     "discoTypes": [
