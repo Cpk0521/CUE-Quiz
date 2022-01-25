@@ -82,8 +82,19 @@ songs = [
     ['キセキなSummer！', [0], 1, '209.mp3'],
     ['Land"e"scape', [0], 1, '210.mp3'],
     ['スタートライン', [15], 1, 'flhe4PWaLa0.mp3'],
-    ['はじまりの鐘の音が鳴り響く空', [15], 1, 'EdUR0JotoD0.mp3']
-
+    ['スタートライン (Flower ver.)', [15], 3, 'HKkyGE72tg0.mp3'],
+    ['スタートライン (Bird ver.)', [15], 3, 'NegUZ0K8c4c.mp3'],
+    ['スタートライン (Wind ver.)', [15], 3, 'DzjXZNIEPYo.mp3'],
+    ['スタートライン (Moon ver.)', [15], 3, 'VErfJlUTey8.mp3'],
+    ['スタートライン (Instrumental)', [15], 2, 'oQZC6w1wU_w.mp3'],
+    ['はじまりの鐘の音が鳴り響く空', [15], 1, 'EdUR0JotoD0.mp3'],
+    ['はじまりの鐘の音が鳴り響く空 (Flower ver.)', [15], 3, 'FdV2WTyA4dY.mp3'],
+    ['はじまりの鐘の音が鳴り響く空 (Bird ver.)', [15], 3, 'Jm3JU3_NumY.mp3'],
+    ['はじまりの鐘の音が鳴り響く空 (Wind ver.)', [15], 3, 'EP5YE9oTUMQ.mp3'],
+    ['はじまりの鐘の音が鳴り響く空 (Moon ver.)', [15], 3, 'qNt96k3TeyE.mp3'],
+    ['はじまりの鐘の音が鳴り響く空 (Instrumental)', [15], 2, 'KYl8G5XUMQE.mp3'],
+    ['空合ぼくらは追った', [15], 1, 'Ictiw_4pPM.mp3'],
+    ['空合ぼくらは追った (Instrumental)', [15], 2, '7yTYXAaJUfw.mp3'],
 ]
 
 songtype = [

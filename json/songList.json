@@ -835,6 +835,56 @@
             "file": "flhe4PWaLa0.mp3"
         },
         {
+            "name": "スタートライン (Flower ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "HKkyGE72tg0.mp3"
+        },
+        {
+            "name": "スタートライン (Bird ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "NegUZ0K8c4c.mp3"
+        },
+        {
+            "name": "スタートライン (Wind ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "DzjXZNIEPYo.mp3"
+        },
+        {
+            "name": "スタートライン (Moon ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "VErfJlUTey8.mp3"
+        },
+        {
+            "name": "スタートライン (Instrumental)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 2,
+            "file": "oQZC6w1wU_w.mp3"
+        },
+        {
             "name": "はじまりの鐘の音が鳴り響く空",
             "discos": [
                 {
@@ -843,6 +893,76 @@
             ],
             "songtype": 1,
             "file": "EdUR0JotoD0.mp3"
+        },
+        {
+            "name": "はじまりの鐘の音が鳴り響く空 (Flower ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "FdV2WTyA4dY.mp3"
+        },
+        {
+            "name": "はじまりの鐘の音が鳴り響く空 (Bird ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "Jm3JU3_NumY.mp3"
+        },
+        {
+            "name": "はじまりの鐘の音が鳴り響く空 (Wind ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "EP5YE9oTUMQ.mp3"
+        },
+        {
+            "name": "はじまりの鐘の音が鳴り響く空 (Moon ver.)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 3,
+            "file": "qNt96k3TeyE.mp3"
+        },
+        {
+            "name": "はじまりの鐘の音が鳴り響く空 (Instrumental)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 2,
+            "file": "KYl8G5XUMQE.mp3"
+        },
+        {
+            "name": "空合ぼくらは追った",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 1,
+            "file": "Ictiw_4pPM.mp3"
+        },
+        {
+            "name": "空合ぼくらは追った (Instrumental)",
+            "discos": [
+                {
+                    "disco": 15
+                }
+            ],
+            "songtype": 2,
+            "file": "7yTYXAaJUfw.mp3"
         }
     ],
     "SongTypes": [
