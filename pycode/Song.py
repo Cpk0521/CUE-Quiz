@@ -95,6 +95,9 @@ songs = [
     ['はじまりの鐘の音が鳴り響く空 (Instrumental)', [15], 2, 'KYl8G5XUMQE.mp3'],
     ['空合ぼくらは追った', [15], 1, 'Ictiw_4pPM.mp3'],
     ['空合ぼくらは追った (Instrumental)', [15], 2, '7yTYXAaJUfw.mp3'],
+    ['Tomorrow\'s Diary', [16], 1, 'tP0titzWz8A.mp3'],
+    ['ゆめだより', [16], 1,'4jStvtzaH-0.mp3']
+
 ]
 
 songtype = [

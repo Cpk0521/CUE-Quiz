@@ -225,6 +225,22 @@
                 }
             ],
             "lnkto": "https://lnk.to/CUE05"
+        },
+        {
+            "id": 16,
+            "date": "2022-5-18",
+            "type": 3,
+            "title": "2クール目主題歌CD",
+            "name": "Tomorrow's Diary／ゆめだより",
+            "cover": [
+                {
+                    "file": "oped2_jk_normal.jpg"
+                },
+                {
+                    "file": "oped2_jk_syokai.jpg"
+                }
+            ],
+            "lnkto": "https://lnk.to/CUE06"
         }
     ],
     "discoTypes": [

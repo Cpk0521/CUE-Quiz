@@ -963,6 +963,26 @@
             ],
             "songtype": 2,
             "file": "7yTYXAaJUfw.mp3"
+        },
+        {
+            "name": "Tomorrow's Diary",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 1,
+            "file": "tP0titzWz8A.mp3"
+        },
+        {
+            "name": "ゆめだより",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 1,
+            "file": "4jStvtzaH-0.mp3"
         }
     ],
     "SongTypes": [

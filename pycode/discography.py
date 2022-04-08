@@ -17,6 +17,7 @@ discolist = [
     [13, '2021-01-06', 'CUE! 04 Single', '最高の魔法', 3, ['S04_1.jpg', 'S04_2.jpg'], 'https://lnk.to/SaikonoMahoPC'],
     [14, '2021-04-21', 'CUE! 01 Album', 'Talk about everything', 2, ['A01_1.jpg', 'A01_2.jpg'], 'https://lnk.to/Talk_about_everything'],
     [15, '2022-1-26', '主題歌CD', 'スタートライン／はじまりの鐘の音が鳴り響く空', 3, ['oped_jk.jpg', 'oped_jk_syokai.jpg'], 'https://lnk.to/CUE05'],
+    [16, '2022-5-18', '2クール目主題歌CD', 'Tomorrow\'s Diary／ゆめだより', 3, ['oped2_jk_normal.jpg', 'oped2_jk_syokai.jpg'], 'https://lnk.to/CUE06'],
 ]
 
 discoTypes = [
