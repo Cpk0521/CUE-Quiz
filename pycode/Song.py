@@ -96,7 +96,19 @@ songs = [
     ['空合ぼくらは追った', [15], 1, 'Ictiw_4pPM.mp3'],
     ['空合ぼくらは追った (Instrumental)', [15], 2, '7yTYXAaJUfw.mp3'],
     ['Tomorrow\'s Diary', [16], 1, 'tP0titzWz8A.mp3'],
-    ['ゆめだより', [16], 1,'4jStvtzaH-0.mp3']
+    ['Tomorrow\'s Diary (Flower ver.)', [16], 3, 's5vxSHiGMbo.mp3'],
+    ['Tomorrow\'s Diary (Bird ver.)', [16], 3, '63h2PaemLzA.mp3'],
+    ['Tomorrow\'s Diary (Wind ver.)', [16], 3, 'Er3XD2Gbt9k.mp3'],
+    ['Tomorrow\'s Diary (Moon ver.)', [16], 3, '10awgaxAYg.mp3'],
+    ['Tomorrow\'s Diary (Instrumental)', [16], 2, 'dUIt09UNXkw.mp3'],
+    ['ゆめだより', [16], 1,'4jStvtzaH-0.mp3'],
+    ['ゆめだより (Flower ver.)', [16], 3,'cnvIal9bSqA.mp3'],
+    ['ゆめだより (Bird ver.)', [16], 3,'9Gl0T0V0DVs.mp3'],
+    ['ゆめだより (Wind ver.)', [16], 3,'WUMw5dgu_M.mp3'],
+    ['ゆめだより (Moon ver.)', [16], 3,'Ygj36DkmJQ8.mp3'],
+    ['ゆめだより (Instrumental)', [16], 2,'SsWkVh350-E.mp3'],
+    ['Road to Forever', [16], 1, 'jZpAymF9lAI.mp3'],
+    ['Road to Forever (Instrumental)', [16], 2, 'LzAbHFpfJUI.mp3']
 
 ]
 

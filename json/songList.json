@@ -975,6 +975,56 @@
             "file": "tP0titzWz8A.mp3"
         },
         {
+            "name": "Tomorrow's Diary (Flower ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "s5vxSHiGMbo.mp3"
+        },
+        {
+            "name": "Tomorrow's Diary (Bird ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "63h2PaemLzA.mp3"
+        },
+        {
+            "name": "Tomorrow's Diary (Wind ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "Er3XD2Gbt9k.mp3"
+        },
+        {
+            "name": "Tomorrow's Diary (Moon ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "10awgaxAYg.mp3"
+        },
+        {
+            "name": "Tomorrow's Diary (Instrumental)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 2,
+            "file": "dUIt09UNXkw.mp3"
+        },
+        {
             "name": "ゆめだより",
             "discos": [
                 {
@@ -983,6 +1033,76 @@
             ],
             "songtype": 1,
             "file": "4jStvtzaH-0.mp3"
+        },
+        {
+            "name": "ゆめだより (Flower ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "cnvIal9bSqA.mp3"
+        },
+        {
+            "name": "ゆめだより (Bird ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "9Gl0T0V0DVs.mp3"
+        },
+        {
+            "name": "ゆめだより (Wind ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "WUMw5dgu_M.mp3"
+        },
+        {
+            "name": "ゆめだより (Moon ver.)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 3,
+            "file": "Ygj36DkmJQ8.mp3"
+        },
+        {
+            "name": "ゆめだより (Instrumental)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 2,
+            "file": "SsWkVh350-E.mp3"
+        },
+        {
+            "name": "Road to Forever",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 1,
+            "file": "jZpAymF9lAI.mp3"
+        },
+        {
+            "name": "Road to Forever (Instrumental)",
+            "discos": [
+                {
+                    "disco": 16
+                }
+            ],
+            "songtype": 2,
+            "file": "LzAbHFpfJUI.mp3"
         }
     ],
     "SongTypes": [
