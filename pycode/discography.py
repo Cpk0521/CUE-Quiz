@@ -18,10 +18,17 @@ discolist = [
     [14, '2021-04-21', 'CUE! 01 Album', 'Talk about everything', 2, ['A01_1.jpg', 'A01_2.jpg'], 'https://lnk.to/Talk_about_everything'],
     [15, '2022-1-26', '主題歌CD', 'スタートライン／はじまりの鐘の音が鳴り響く空', 3, ['oped_jk.jpg', 'oped_jk_syokai.jpg'], 'https://lnk.to/CUE05'],
     [16, '2022-5-18', '2クール目主題歌CD', 'Tomorrow\'s Diary／ゆめだより', 3, ['oped2_jk_normal.jpg', 'oped2_jk_syokai.jpg'], 'https://lnk.to/CUE06'],
+    [17, '2022-3-16', '', 'Blu-ray 第6巻', 5, ['bd_1_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_1/'],
+    [18, '2022-4-20', '', 'Blu-ray 第6巻', 5, ['bd_2_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_2/'],
+    [19, '2022-5-18', '', 'Blu-ray 第6巻', 5, ['bd_3_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_3/'],
+    [20, '2022-6-15', '', 'Blu-ray 第6巻', 5, ['bd_4_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_4/'],
+    [21, '2022-7-20', '', 'Blu-ray 第6巻', 5, ['bd_5_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_5/'],
+    [22, '2022-8-17', '', 'Blu-ray 第6巻', 5, ['bd_6_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_6/'],
+    [23, '2022-11-16', 'CUE! Limited Mini Album', '花鳥風月', 1, ['CUE_miniAL_jk_RGB.jpg'], ''],
 ]
 
 discoTypes = [
-    [0, 'Not on sale'], [1, 'Mini Album'], [2, 'Album'], [3, 'Single'], [4, 'Team Single']
+    [0, 'Not on sale'], [1, 'Mini Album'], [2, 'Album'], [3, 'Single'], [4, 'Team Single'], [5, 'BD']
 ]
 
 jsondata = {'discolist':[], 'discoTypes':[]}

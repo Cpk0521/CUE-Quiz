@@ -805,26 +805,6 @@
             "file": "UO2u_YjFNE8.mp3"
         },
         {
-            "name": "キセキなSummer！",
-            "discos": [
-                {
-                    "disco": 0
-                }
-            ],
-            "songtype": 1,
-            "file": "209.mp3"
-        },
-        {
-            "name": "Land\"e\"scape",
-            "discos": [
-                {
-                    "disco": 0
-                }
-            ],
-            "songtype": 1,
-            "file": "210.mp3"
-        },
-        {
             "name": "スタートライン",
             "discos": [
                 {
@@ -1103,6 +1083,26 @@
             ],
             "songtype": 2,
             "file": "LzAbHFpfJUI.mp3"
+        },
+        {
+            "name": "キセキなSummer！",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 1,
+            "file": "209.mp3"
+        },
+        {
+            "name": "Land\"e\"scape",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 1,
+            "file": "210.mp3"
         }
     ],
     "SongTypes": [

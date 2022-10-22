@@ -79,8 +79,6 @@ songs = [
     ['Radio is a Friend!', [14], 1, 'bRu7zZSTooM.mp3'],
     ['マイサスティナー', [14], 1, 'OspUN8GjoNQ.mp3'],
     ['雫の結晶', [14], 1, 'UO2u_YjFNE8.mp3'],
-    ['キセキなSummer！', [0], 1, '209.mp3'],
-    ['Land"e"scape', [0], 1, '210.mp3'],
     ['スタートライン', [15], 1, 'flhe4PWaLa0.mp3'],
     ['スタートライン (Flower ver.)', [15], 3, 'HKkyGE72tg0.mp3'],
     ['スタートライン (Bird ver.)', [15], 3, 'NegUZ0K8c4c.mp3'],
@@ -108,7 +106,9 @@ songs = [
     ['ゆめだより (Moon ver.)', [16], 3,'Ygj36DkmJQ8.mp3'],
     ['ゆめだより (Instrumental)', [16], 2,'SsWkVh350-E.mp3'],
     ['Road to Forever', [16], 1, 'jZpAymF9lAI.mp3'],
-    ['Road to Forever (Instrumental)', [16], 2, 'LzAbHFpfJUI.mp3']
+    ['Road to Forever (Instrumental)', [16], 2, 'LzAbHFpfJUI.mp3'],
+    ['キセキなSummer！', [23], 1, '209.mp3'],
+    ['Land"e"scape', [23], 1, '210.mp3'],
 
 ]
 
