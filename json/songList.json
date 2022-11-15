@@ -1092,7 +1092,7 @@
                 }
             ],
             "songtype": 1,
-            "file": "209.mp3"
+            "file": "CIK94ZuKYQ.mp3"
         },
         {
             "name": "Land\"e\"scape",
@@ -1102,7 +1102,77 @@
                 }
             ],
             "songtype": 1,
-            "file": "210.mp3"
+            "file": "8keXI1qX5wc.mp3"
+        },
+        {
+            "name": "Beast Blood Blend",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 1,
+            "file": "Ckd9PjqUHnc.mp3"
+        },
+        {
+            "name": "純情革命",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 1,
+            "file": "npS2SX9wAM.mp3"
+        },
+        {
+            "name": "Forever Friends (Leaders ver.)",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 3,
+            "file": "wZLTSCJVM4.mp3"
+        },
+        {
+            "name": "キセキなSummer！(Instrumental)",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 2,
+            "file": "f4lLYFJcglM.mp3"
+        },
+        {
+            "name": "Land\"e\"scape (Instrumental)",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 2,
+            "file": "nQElEhG0TR4.mp3"
+        },
+        {
+            "name": "Beast Blood Blend (Instrumental)",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 2,
+            "file": "rTLtT7jYYw.mp3"
+        },
+        {
+            "name": "純情革命(Instrumental)",
+            "discos": [
+                {
+                    "disco": 23
+                }
+            ],
+            "songtype": 2,
+            "file": "EmXSGBtSGos.mp3"
         }
     ],
     "SongTypes": [

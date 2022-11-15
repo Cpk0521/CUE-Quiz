@@ -107,8 +107,15 @@ songs = [
     ['ゆめだより (Instrumental)', [16], 2,'SsWkVh350-E.mp3'],
     ['Road to Forever', [16], 1, 'jZpAymF9lAI.mp3'],
     ['Road to Forever (Instrumental)', [16], 2, 'LzAbHFpfJUI.mp3'],
-    ['キセキなSummer！', [23], 1, '209.mp3'],
-    ['Land"e"scape', [23], 1, '210.mp3'],
+    ['キセキなSummer！', [23], 1, 'CIK94ZuKYQ.mp3'],
+    ['Land"e"scape', [23], 1, '8keXI1qX5wc.mp3'],
+    ['Beast Blood Blend', [23], 1, 'Ckd9PjqUHnc.mp3'],
+    ['純情革命', [23], 1, 'npS2SX9wAM.mp3'],
+    ['Forever Friends (Leaders ver.)', [23], 3, 'wZLTSCJVM4.mp3'],
+    ['キセキなSummer！(Instrumental)', [23], 2, 'f4lLYFJcglM.mp3'],
+    ['Land"e"scape (Instrumental)', [23], 2, 'nQElEhG0TR4.mp3'],
+    ['Beast Blood Blend (Instrumental)', [23], 2, 'rTLtT7jYYw.mp3'],
+    ['純情革命(Instrumental)', [23], 2, 'EmXSGBtSGos.mp3'],
 
 ]
 
