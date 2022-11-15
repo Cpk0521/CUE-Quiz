@@ -332,6 +332,19 @@
                 }
             ],
             "lnkto": ""
+        },
+        {
+            "id": 24,
+            "date": "2022-11-16",
+            "type": 1,
+            "title": "",
+            "name": "Project Vogel & Himmel Songs",
+            "cover": [
+                {
+                    "file": "unnamed.jpg"
+                }
+            ],
+            "lnkto": ""
         }
     ],
     "discoTypes": [

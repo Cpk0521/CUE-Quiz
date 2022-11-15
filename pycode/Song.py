@@ -116,7 +116,21 @@ songs = [
     ['Land"e"scape (Instrumental)', [23], 2, 'nQElEhG0TR4.mp3'],
     ['Beast Blood Blend (Instrumental)', [23], 2, 'rTLtT7jYYw.mp3'],
     ['純情革命(Instrumental)', [23], 2, 'EmXSGBtSGos.mp3'],
-
+    ['We Can Fly!!!!', [24], 3, 's93k_P__Ds.mp3'],
+    ['LUNΛ Labyrinth', [24], 3, 'w6YkiqgrU8A.mp3'],
+    ['Whispers\' Hope', [24], 3, '2xkvubO4DwM.mp3'],
+    ['HARU・NARU', [24], 3, '18GoGDnz94.mp3'],
+    ['イロドリハート', [24], 3, 'H6P9liQBc0.mp3'],
+    ['おつきさま', [24], 1, 's0nAx5g6NzA.mp3'],
+    ['The Voice', [24], 1, 'KIdwNEHvQts.mp3'],
+    ['We Can Fly!!!! (Instrumental)', [24], 2, '26bPWqTz24.mp3'],
+    ['LUNΛ Labyrinth (Instrumental)', [24], 2, 'jCdxSqZvUuo.mp3'],
+    ['Whispers\' Hope (Instrumental)', [24], 2, 'KJgOAn1JsFs.mp3'],
+    ['HARU・NARU (Instrumental)', [24], 2, 'JUStvZvvtEs.mp3'],
+    ['イロドリハート (Instrumental)', [24], 2, 'JsBhtuhFSc.mp3'],
+    ['おつきさま (Instrumental)', [24], 2, 'tiW31nbI7zg.mp3'],
+    ['The Voice (Piano ver.)', [24], 1, '4fezryJ81tY.mp3'],
+    
 ]
 
 songtype = [

@@ -25,6 +25,7 @@ discolist = [
     [21, '2022-7-20', '', 'Blu-ray 第6巻', 5, ['bd_5_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_5/'],
     [22, '2022-8-17', '', 'Blu-ray 第6巻', 5, ['bd_6_jk.jpg'], 'https://cue-animation.jp/product/bd/bd_6/'],
     [23, '2022-11-16', 'CUE! Limited Mini Album', '花鳥風月', 1, ['CUE_miniAL_jk_RGB.jpg'], ''],
+    [24, '2022-11-16', '', 'Project Vogel & Himmel Songs', 1, ['unnamed.jpg'], ''],
 ]
 
 discoTypes = [

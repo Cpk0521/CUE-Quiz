@@ -1173,6 +1173,146 @@
             ],
             "songtype": 2,
             "file": "EmXSGBtSGos.mp3"
+        },
+        {
+            "name": "We Can Fly!!!!",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 3,
+            "file": "s93k_P__Ds.mp3"
+        },
+        {
+            "name": "LUNΛ Labyrinth",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 3,
+            "file": "w6YkiqgrU8A.mp3"
+        },
+        {
+            "name": "Whispers' Hope",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 3,
+            "file": "2xkvubO4DwM.mp3"
+        },
+        {
+            "name": "HARU・NARU",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 3,
+            "file": "18GoGDnz94.mp3"
+        },
+        {
+            "name": "イロドリハート",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 3,
+            "file": "H6P9liQBc0.mp3"
+        },
+        {
+            "name": "おつきさま",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 1,
+            "file": "s0nAx5g6NzA.mp3"
+        },
+        {
+            "name": "The Voice",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 1,
+            "file": "KIdwNEHvQts.mp3"
+        },
+        {
+            "name": "We Can Fly!!!! (Instrumental)",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 2,
+            "file": "26bPWqTz24.mp3"
+        },
+        {
+            "name": "LUNΛ Labyrinth (Instrumental)",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 2,
+            "file": "jCdxSqZvUuo.mp3"
+        },
+        {
+            "name": "Whispers' Hope (Instrumental)",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 2,
+            "file": "KJgOAn1JsFs.mp3"
+        },
+        {
+            "name": "HARU・NARU (Instrumental)",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 2,
+            "file": "JUStvZvvtEs.mp3"
+        },
+        {
+            "name": "イロドリハート (Instrumental)",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 2,
+            "file": "JsBhtuhFSc.mp3"
+        },
+        {
+            "name": "おつきさま (Instrumental)",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 2,
+            "file": "tiW31nbI7zg.mp3"
+        },
+        {
+            "name": "The Voice (Piano ver.)",
+            "discos": [
+                {
+                    "disco": 24
+                }
+            ],
+            "songtype": 1,
+            "file": "4fezryJ81tY.mp3"
         }
     ],
     "SongTypes": [
