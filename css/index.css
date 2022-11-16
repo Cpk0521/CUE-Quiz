@@ -1,0 +1,385 @@
+@font-face {
+    font-family: RodinCattleya_Pro_B;
+    src: url(../font/FOT_RodinCattleya_Pro_B.otf);
+}
+
+@font-face {
+    font-family: RodinCattleya_Pro_EB;
+    src: url(../font/FOT_RodinCattleya_Pro_EB.otf);
+}
+
+div {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: RodinCattleya_Pro_B;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: 0 1px 5px 0 rgb(32 33 36 / 10%);
+}
+
+.header-contain , .header-left, .header-right{
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    padding: 5px;
+}
+
+.header-contain > img {
+    cursor: pointer;
+}
+
+.bg {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    /* background-color: #f0f3f6;; */
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/misc/cover.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    height: 50vh;
+    width: 80vw;
+    margin: 8vh auto 0 auto;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-show {
+    display: block;
+}
+
+/* main */
+
+.main_title {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.main_description {
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.main_options {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    grid-gap: 15px;
+    padding: 3vh 0;
+}
+
+.option_button {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgb(33 35 38 / 10%) 0 10px 10px -10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option_button > span {
+    font-family: RodinCattleya_Pro_EB;
+    box-sizing: border-box;
+}
+
+.option_button:not(.is-selected):hover {
+    border: 2px solid #000 !important;
+}
+
+.option_button:not(.is-selected) {
+    border: 2px solid #ccccdd;
+    color: #333344;
+}
+
+.is-selected{
+    border: 2px solid #4467e7 !important;
+    color: #4467e7 !important;
+}
+
+.main_confirm {
+    padding-top: 3vh;
+    width: 100%;
+    text-align: center;
+}
+
+.confirm_button {
+    width: 350px;
+    color: #fff;
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    border: 0px ;
+    border-radius: 50px !important;
+    text-align: center;
+    font-family: RodinCattleya_Pro_EB;
+    font-size: 2em !important;
+    transition: all .2s ease-in-out;
+}
+
+.confirm_button:hover {
+    transform: scale(1.05);
+}
+
+.not_active {
+    pointer-events: none;
+    background: rgba(187,187,204,0.5);
+    border: 5px solid rgba(187,187,204,0.5) !important;
+}
+
+.active {
+    cursor: pointer;
+    border: 5px solid #ce2424 !important;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
+    background: #e74444;
+}
+
+.next {
+    cursor: pointer;
+    border: 5px solid #24a1ce !important;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
+    background: #44b9e7;
+}
+
+.result {
+    cursor: pointer;
+    border: 5px solid #24a1ce !important;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
+    background: #44b9e7;
+    width: auto;
+    padding : revert;
+}
+
+
+/* quiz */
+
+
+.controller {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.controller_btn {
+    background: rgba(43,117,255,.95);
+    border: 1px solid #2b75ff;
+    color: #fff;   
+    border-radius: 50%;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.play_btn{
+    height: 10vw;
+    width: 10vw;
+}
+
+.play_btn > svg {
+    width: 5vw;
+}
+
+.refresh_btn{
+    border-radius: 15px;
+}
+
+.refresh_btn_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5px;
+    font-family: RodinCattleya_Pro_B;
+    font-size: larger;
+}
+
+.lock {
+    pointer-events: none;
+    border: rgba(187,187,204,.5);
+    background-color: rgba(187,187,204,.5) !important;
+}
+
+.refresh_btn_content > svg {
+    width: 25px;
+}
+
+/* ans */
+
+.main_disco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.disco_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-small;
+    font-family: RodinCattleya_Pro_EB;
+    padding: 3px;
+    border: 1px solid #9f9f9f;
+    border-radius: 5px;
+}
+
+.disco_item > img {
+    width: 200px;
+}
+
+.main_songname {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.discoimg {
+    cursor: pointer;
+}
+
+.correct {
+    color: rgb(49, 255, 38);
+}
+
+.wrong {
+    color: rgb(255, 0, 0);
+}
+
+/* result */
+
+.main_result_title {
+    width: 25%;
+}
+
+.main_result {
+    text-align: center;
+    font-family: RodinCattleya_Pro_EB;
+    font-size: 3rem;
+}
+
+.main_rankimg {
+    /* margin: auto; */
+    width: 180px;
+    margin: 5px auto;
+}
+
+.main_result_button{
+    margin: 3vh auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .main_title {
+        width: 90%;
+    }
+
+    .main_options{
+        grid-template-columns: 1fr;
+        grid-gap: 7px;
+    }
+
+    .controller {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .play_btn{
+        height: 15vw;
+        width: 15vw;
+    }
+    
+    .play_btn > svg {
+        width: 7.5vw;
+    }
+
+    .main_result_button {
+        width: 100%;
+        font-size: smaller;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .main {
+        margin: 5vh auto 0 auto;
+    }
+
+    .main_description {
+        padding: 2vh 0;
+    }
+
+    .main_options {
+        width: 100%;
+    }
+
+    .confirm_button {
+        width: 100%;
+    }
+
+    .play_btn{
+        height: 30vw;
+        width: 30vw;
+    }
+    
+    .play_btn > svg {
+        width: 15vw;
+    }
+
+    .main_songname {
+        font-size: 1rem;
+    }
+
+    .main_result {
+        font-size: 2rem;
+    }
+
+    .main_result_button {
+        font-size: x-small;
+    }
+
+}
